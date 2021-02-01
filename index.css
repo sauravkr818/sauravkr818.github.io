@@ -1,0 +1,71 @@
+.glass-morphism{
+    background: rgba( 255, 255, 255, 0.35 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 100;
+}
+
+.box1{
+    float: right;
+  height: 200px;
+  width: 200px;
+  shape-outside: circle(25%);
+  shape-margin: 1rem;
+  clip-path: circle(25%);
+  background: linear-gradient(to top right, #3f51b5, #578afa);
+   
+    
+}
+
+.box2{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    z-index: -1;
+   background-color: rgb(101, 150, 243);
+    width: 80px;
+    height: 80px;
+    shape-outside: circle(50% at 0 50%);
+    border-radius: 50%;
+    
+}
+
+.box3{
+    position: absolute;
+width: 65px;
+height: 65px;
+left: -25px;
+top: 600px;
+z-index: -1;
+background: linear-gradient(137.64deg, #02131F 0%, #E6ECF0 97.97%);
+box-shadow: 272px 240px 208px rgba(181, 190, 197, 0.66), 112px 96px 96px #DAE2E7, -76px -62px 96px rgba(255, 255, 255, 0.57);
+border-radius: 50%;
+}
+
+.box4{
+position: absolute;
+width: 400px;
+height: 720px;
+left: 40%;
+top: 600px;
+background: linear-gradient(137.64deg, #E8EFF4 0%, #E6ECF0 97.97%);
+opacity: 0.8;
+box-shadow: 272px 240px 208px rgba(181, 190, 197, 0.66), 112px 96px 96px #DAE2E7, -76px -62px 96px rgba(255, 255, 255, 0.57);
+border-radius: 10%;
+}
+
+.box5{
+  
+}
+
+#fox{
+    top: 100px !important;
+    z-index: -100;
+    height: 20%;
+    left: 0;
+    transform: matrix(1, 1, -1, 1, -80 , 50);
+    position: absolute;
+    background-size:inherit;
+}

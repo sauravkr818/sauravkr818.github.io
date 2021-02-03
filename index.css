@@ -18,6 +18,9 @@
    
     
 }
+.abc{
+  
+}
 
 .box2{
     position: relative;
@@ -45,6 +48,7 @@ border-radius: 50%;
 }
 
 .box4{
+  
 position: absolute;
 width: 400px;
 height: 720px;
@@ -81,3 +85,16 @@ h1{
   span{
     display: inline-block;
   }
+
+  .animate{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .animate:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}

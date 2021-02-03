@@ -1,96 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" type="text/css">
-    <title>Hello, world!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>Saurav Kumar</title>
   </head>
+
   <body>
-    
-        <div class="container-fluid">
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
-          <!-- <div class="box4"></div> -->
-          <div class="box5"></div>
-          <img id="fox" src="fox.png">
-          <!-------------------------------------------------------------------------navbar----------------------------------------------------------------------------------------->
-          <div class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
-          
-          <a class="navbar-brand ms-5" href="#">Saurav Kumar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-lg-end ms-sm-2 me-lg-5" id="navbarNavDropdown"  >
-            <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item me-2">
-                <a class="nav-link" href="#">About me</a>
-              </li>
-              <li class="nav-item me-2">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item me-2">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item me-2">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item dropdown me-2">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown Menu
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-       
-</div>
-
-   <!--------------------------------------------------------------------------navbar ends ------------------------------------------------------------------------------------->
-       
-   <!------------------------------------------------------------------------------body-----------------------------------------------------------------------------------> 
-   <div class="row" style="padding-top:200px">
-     <div class="col-md-8">
-   <div class="ms-5">  
-   <p class="text-dark" >Hello World, I'm</p>
-   <h1 class="" style="font-weight: 900; line-height: 90%; color: rgb(61, 61, 61); font-size: 2.2rem;">SAURAV KUMAR</h1>
-   <h6 class="" style="font-size: 1.06rem; line-height:150%; letter-spacing: 2px; "> FULL STACK WEB DEVELOPER</h6>
-</div>
-     </div>
-<div class="col-md-4">
-<div class="card w-75 shadow-lg glass-morphism mx-auto">
-  <div class="card-body   text-primary small">
-   <p> 1. The most important part of life is <b>Failures</b></p>
-    <p>2. And ofcourse your <b>Family</b></p>
-    
-
-
-  </div>
-</div>
-</div>
-</div>
-      
-      
+    <div class="container-fluid">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <!-- <div class="box4">
+        
+      </div> -->
+      <div class="box5"></div>
+      <img class="animate" id="fox" src="fox.png" />
+      <!-------------------------------------------------------------------------navbar----------------------------------------------------------------------------------------->
+      <div
+        class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow"
+      >
+        <a class="navbar-brand ms-auto me-auto ps-5" href="#">Saurav Kumar</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-end ms-sm-2 me-lg-5"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown me-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown Menu
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-     
 
+      <!--------------------------------------------------------------------------navbar ends ------------------------------------------------------------------------------------->
+
+      <!------------------------------------------------------------------------------body----------------------------------------------------------------------------------->
+      <div class="row" style="padding-top: 200px">
+        <div class="col-md-8">
+          <div class="ms-5">
+            <p class="text-dark">Hello World, I'm</p>
+            <h1
+              class="abc"
+              style="
+                font-weight: 900;
+                line-height: 90%;
+                color: rgb(61, 61, 61);
+                font-size: 2.2rem;
+              "
+            >
+              SAURAV KUMAR
+            </h1>
+            <h6
+              class="abc"
+              style="font-size: 1.06rem; line-height: 150%; letter-spacing: 2px"
+            >
+              FULL STACK WEB DEVELOPER
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card animate w-75 shadow-lg glass-morphism mx-auto">
+            <div class="card-body text-primary small">
+              <p>1. The most important part of life is <b>Failures</b></p>
+              <p>2. And ofcourse your <b>Family</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card" style="max-width: 30rem; ">
+        <canvas class=" mx-auto justify-content-center" id="myChart"></canvas>
+      </div> -->
+
+      
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -99,7 +147,10 @@
     -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/0.11.9/jquery.velocity.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+      type="text/javascript"
+    ></script>
 
     <script src="index.js" type="text/javascript"></script>
   </body>

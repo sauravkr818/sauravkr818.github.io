@@ -61,7 +61,16 @@ border-radius: 10%;
 }
 
 .box5{
-  
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 5px;
+  top: 1400px;
+  z-index: -1;
+  background: linear-gradient(137.64deg, #4faef1 0%, #11da9e 97.97%);
+  box-shadow: 272px 240px 208px rgba(181, 190, 197, 0.66), 112px 96px 96px #DAE2E7, -76px -62px 96px rgba(255, 255, 255, 0.57);
+  border-radius: 50%;
+   
 }
 
 #fox{

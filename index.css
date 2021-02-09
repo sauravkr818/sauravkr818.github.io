@@ -6,8 +6,12 @@
     margin-left: 100%;
   }
   to {
-    margin-left: 25%;
+    margin-left: 0%;
   }
+}
+
+#hello{
+  transition-delay: all 13s ease-in-out !important;
 }
 
 .slide-top {
@@ -46,7 +50,9 @@
 }
 
 .box1{
-    float: right;
+   
+    position: absolute;
+    z-index: -1000;
   height: 200px;
   width: 200px;
   shape-outside: circle(25%);
@@ -58,8 +64,8 @@
 }
 
 .box2{
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 0%;
     left: 10%;
     z-index: -1;
    background-color: rgb(101, 150, 243);
@@ -267,3 +273,10 @@ h1{
   padding: 3vw 15vw 10vw;
 }
 
+.color:hover{
+  color:rgb(0, 140, 255) !important;
+}
+
+.color:active{
+  color:rgb(0, 140, 255) !important;
+}

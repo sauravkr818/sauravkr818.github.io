@@ -1,0 +1,54 @@
+
+    .body- {
+        background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+        font-family: 'Rubik', sans-serif;
+        background: #455A64 !important;
+        height: 100 !important
+      }
+      
+    
+    
+   
+    footer {
+        color: #fff !important
+    }
+    
+   
+    .row-1 {
+        background-color: #1E242A !important
+    }
+     
+    
+    a{
+        text-decoration:none !important;
+        color:#caced1;
+    }
+
+    .hover-github{
+        color: #fff;
+    }
+    .hover-github:hover{
+        color: #000;
+        transition:all 0.1s ease-in-out;
+    }
+    .hover-fb{
+        color: #fff;
+    }
+    .hover-fb:hover{
+        color: rgb(5, 5, 153);
+        transition:all 0.1s ease-in-out;
+    }
+    .hover-insta{
+        color: #fff;
+    }
+    .hover-insta:hover{
+        color: rgb(236, 86, 16);
+        transition:all 0.1s ease-in-out;
+    }
+    .hover-linked-in{
+        color: #fff;
+    }
+    .hover-linked-in:hover{
+        color: rgb(5, 5, 238);
+        transition:all 0.1s ease-in-out;
+    }

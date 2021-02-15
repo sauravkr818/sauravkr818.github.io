@@ -304,3 +304,9 @@ h1{
 .style{
   transition:all 0.3s ease-in-out;
 }
+
+.bg-cover{
+  background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
+}

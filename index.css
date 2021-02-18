@@ -318,3 +318,21 @@ h1{
     background-position: center center!important;
     background-size: cover!important;
 }
+
+.img-1{
+  width: 25%;
+}
+
+.img-2{
+  width: 25%;
+}
+
+
+@media(max-width:600px){
+  .img-1{
+    width: 100%;
+  }
+  .img-2{
+    width: 100%;
+  }
+}

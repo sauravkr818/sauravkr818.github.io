@@ -36,6 +36,61 @@ let scene2 = new ScrollMagic.Scene({
 .setPin('#animation-image')
 .addTo(scrollController);
 
+
+let time2 = anime.timeline({autoplay: false});
+
+// Add animations
+let screen3 = {
+  targets: '#animation-image-2 .animate-image2 img',
+  opacity: [0.5,1],
+  scale:[0.5,1.5],
+  translateX: {
+    value: ['50%', '0%'],
+    duration: 15,
+  },
+  duration: 10,
+  delay: 0,
+  easing: 'easeInOutSine'
+};
+
+let screen5 = {
+  targets: '.hello',
+  opacity: [0.5,1],
+  translateX: {
+    value: ['120%', '0%'],
+    duration: 15,
+  },
+  duration: 10,
+  delay: 0,
+  easing: 'easeInOutSine'
+};
+
+let screen4 = {
+  targets: '#animation-image-2 .animate-image2 img',
+  scale: 1.4,
+  duration: 10,
+};
+
+// children-items
+time2.add(screen3).add(screen4).add(screen5);
+
+
+let scene4 = new ScrollMagic.Scene({
+  triggerElement: "#animation-image-2",
+  duration: 4000,
+  triggerHook: 0,
+})
+
+.on("progress", function (event) {
+  time2.seek(time2.duration * event.progress);
+})
+
+.setPin('#animation-image-2')
+.addTo(scrollController);
+
+
+
+
 /////////////////////////////////////////////////////////////////////
 // let time12 = anime.timeline({autoplay: false});
 

@@ -329,7 +329,7 @@ h1{
 }
 
 
-@media(max-width:600px){
+@media(max-width:768px){
   .img-1{
     width: 25%;
     height:25%;

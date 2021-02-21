@@ -11,10 +11,12 @@
 }
 @keyframes slide-left {
   from {
-    margin-left: 100%;
+    margin-left: 150px;
+    opacity: 0;
   }
   to {
     margin-left: 0%;
+    opacity: 1;
   }
 }
 
@@ -50,7 +52,7 @@
 
 .glass-morphism{
     background: rgba( 255, 255, 255, 0.35 );
-    backdrop-filter: blur( 9.5px );
+    backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 9.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -340,3 +342,16 @@ h1{
     height:25%;
   }
 }
+
+
+/* .transition {
+  animation: 3s slide-left;
+}
+@keyframes slide-left {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+} */

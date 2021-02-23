@@ -6,6 +6,15 @@
 }
 
 
+.arrow-up{
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow-up:hover{
+  margin-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
 .slide-left {
   animation: 3s slide-left;
 }

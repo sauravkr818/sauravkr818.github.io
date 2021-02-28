@@ -1,4 +1,4 @@
-let navbar = `<div class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+let navbar = `<div class="navbar navbar-expand-lg navbar-light fixed-top shadow glass-morphism">
 <a class="navbar-brand ms-auto me-auto ps-5" href="#"><img src="/avatar/icon.png" class="img-fluid my-auto" style="width:30px;">Saurav Kumar</a>
 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -9,7 +9,7 @@ let navbar = `<div class="navbar navbar-expand-lg navbar-light bg-white fixed-to
             <a class="nav-link active color" aria-current="page" href="#home"> <i class="fas fa-home pe-1" style="color:#845ef7;"></i>Home</a>
         </li>
         <li class="nav-item me-2">
-            <a class="nav-link color" href="#aboutme"><i class="fas fa-user pe-1" style="color:#845ef7;"></i>About me</a>
+            <a class="nav-link active color" href="#aboutme"><i class="fas fa-user pe-1" style="color:#845ef7;"></i>About me</a>
         </li>
         <li class="nav-item me-2">
             <a class="nav-link color" href="#projects"><i class="fas fa-project-diagram pe-1" style="color:#845ef7;"></i>Projects</a>

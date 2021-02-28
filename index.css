@@ -84,8 +84,8 @@
 
 .box2{
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 4%;
+    left: 20%;
     z-index: -1;
    background-color: rgb(101, 150, 243);
     width: 80px;
@@ -351,7 +351,6 @@ h1{
     height:25%;
   }
 }
-
 
 /* .transition {
   animation: 3s slide-left;

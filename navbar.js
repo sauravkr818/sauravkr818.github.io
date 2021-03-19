@@ -15,7 +15,7 @@ let navbar = `<div class="navbar navbar-expand-lg navbar-light fixed-top shadow 
             <a class="nav-link color" href="#projects"><i class="fas fa-project-diagram pe-1" style="color:#845ef7;"></i>Projects</a>
         </li>
         <li class="nav-item me-2">
-            <a class="nav-link color" href="#"><i class="fas fa-address-card pe-1" style="color:#845ef7;"></i>Contact</a>
+            <a class="nav-link color" href="#contact"><i class="fas fa-address-card pe-1" style="color:#845ef7;"></i>Contact</a>
         </li>
         <li class="nav-item me-2">
             <a class="nav-link color" href="./blog.html"><i class="fas fa-blog pe-1" style="color:#845ef7;"></i>Blog</a>

@@ -1,6 +1,6 @@
 let footer = `<footer className="mb-0 py-4">
 
-<div class="row justify-content-center py-5" style="background-color: #606dff;">
+<div class="row justify-content-center py-5 alert-primary" style="background-color: #606dff;">
     <div class="col-12">
         <div class="row">
             <div class="col-md-2 col-sm-2 my-auto mx-auto ">

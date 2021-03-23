@@ -14,13 +14,14 @@
     <link href="footer.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Saurav Kumar</title>
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <div class="d-flex justify-content-end bottom-0 end-0 position-fixed pe-4 pb-4" style="z-index: 100;">
+        <div class="d-flex justify-content-end bottom-0 end-0 position-fixed pe-4 pb-4" style="z-index: 100;" data-aos="fade-up" data-aos-offset="500" data-aos-duration="350">
             <a class="btn alert-primary rounded-circle glass-morphism shadow-lg border arrow-up" href="#"><i class="fa fa-chevron-up fa-lg" style="color:#845ef7;" aria-hidden="true"></i></a>
         </div>
 
@@ -41,7 +42,7 @@
                         <a class="nav-link color" href="./#projects"><i class="fas fa-project-diagram pe-1" style="color:#845ef7;"></i>Projects</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link color" href="javascript:void(0)"><i class="fas fa-address-card pe-1" style="color:#845ef7;"></i>Contact</a>
+                        <a class="nav-link color" href="./#contact"><i class="fas fa-address-card pe-1" style="color:#845ef7;"></i>Contact</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link color" href="./blog.html"><i class="fas fa-blog pe-1" style="color:#845ef7;"></i>Blog</a>
@@ -122,7 +123,7 @@
           <span class="visually-hidden">Next</span>
         </button>
         </div>
-        <div class="card mb-3 mt-5 shadow-sm w-75 mx-auto my-auto border-0 rounded">
+        <div class="card mb-3 mt-5 w-75 mx-auto my-auto border-0 rounded shadow" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="row g-0">
                 <div class="col-md-4">
                     <!-- <img src="News.png" class=" img-fluid card-img mx-auto" alt="..."> -->
@@ -144,7 +145,7 @@
         <img src="Health - Sports.png" class="img-fluid d-block pt-5 pb-5 mx-auto" alt="...">
 
 
-        <div class="card mb-3 mt-5 w-75 mx-auto border-0 rounded shadow-sm">
+        <div class="card mb-3 mt-5 w-75 mx-auto border-0 rounded shadow" data-aos="zoom-out-up" data-aos-offset="1100" data-aos-duration="800">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body pt-xl-5 mt-xl-5">
@@ -253,6 +254,15 @@
     <!-- <script src="index.js" type="text/javascript"></script>
   <script src="anime.js" type="text/javascript"></script> -->
     <script src="./js/blog/blogSvg1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 520,
+                duration: 800,
+            }
+        );
+      </script>
 
 
 </body>

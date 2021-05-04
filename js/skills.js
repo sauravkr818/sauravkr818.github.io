@@ -1,5 +1,5 @@
 let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb-5" style="margin-top:0px;" id="2">
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded slide-right">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-html5 fa-3x" style="color: rgb(240, 101, 41);"></i>
@@ -15,7 +15,7 @@ let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb
 
     </div>
 </div>
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-css3-alt fa-3x" style="color: rgb(38, 77, 228);"></i>
@@ -30,7 +30,7 @@ let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb
 
     </div>
 </div>
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-js fa-3x" style="color: rgb(250, 224, 53);"></i>
@@ -45,7 +45,7 @@ let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb
 
     </div>
 </div>
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-react fa-3x fa-spin" style="color: rgb(99, 148, 238);"></i>
@@ -60,7 +60,7 @@ let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb
 
     </div>
 </div>
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-python fa-3x" style="color: rgb(99, 148, 238);"></i>
@@ -75,7 +75,7 @@ let skills = `    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4  mb
 
     </div>
 </div>
-<div class="col pt-5 d-flex justify-content-center">
+<div class="col pt-5 d-flex justify-content-center" data-aos="fade-up">
     <div class="card h-100 shadow animate w-75 border-0 rounded">
         <div class="card-header bg-white border-0 mx-auto">
             <i class="fab fa-cuttlefish fa-3x" style="color: rgb(99, 148, 238);"></i>

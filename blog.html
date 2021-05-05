@@ -21,15 +21,16 @@
 <body>
 
     <div class="container-fluid">
+        <!-- scrollTop -->
         <div class="d-flex justify-content-end bottom-0 end-0 position-fixed pe-4 pb-4" style="z-index: 100;" data-aos="fade-up" data-aos-offset="500" data-aos-duration="350">
-            <a class="btn alert-primary rounded-circle glass-morphism shadow-lg border arrow-up" href="#"><i class="fa fa-chevron-up fa-lg" style="color:#845ef7;" aria-hidden="true"></i></a>
+            <a class="btn rounded-circle bg-white shadow-lg border arrow-up" href="#"><i class="fa fa-chevron-up fa-lg" style="color:#845ef7;" aria-hidden="true"></i></a>
         </div>
-
+        <!-- header -->
         <div class="navbar navbar-expand-lg navbar-light fixed-top shadow glass-morphism">
             <a class="navbar-brand ms-auto me-auto ps-5" href="#"><img src="/avatar/icon.png" class="img-fluid my-auto" style="width:30px;">Saurav Kumar</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-lg-end ms-sm-2 me-lg-5" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
@@ -63,21 +64,23 @@
                 </ul>
             </div>
         </div>
+        <!-- BLOG header -->
         <div class="card mt-5 alert-success w-100 border-0">
-            <div id="blog-svg-1"></div>
-            <!------------------------------------------------ TRAVEL GIRL --------------------------------------------------------->
-            <div id="blog-svg-2"></div>
-
-            <div class="card-body row card-img-overlay">
-                <div class="my-auto">
-                    <div>
-                        <h1 class="card-text Display-1 fw-bold text-center text-success" style="text-shadow: 2px 2px 5px rgba(122, 121, 121, 0.8);">BLOG</h1>
-                        <p class="card-text text-center ">Welcome to my <b style="color:#727cf5;">Blog</b> Section</p>
-                        <p class="card-text text-center">The content that you want</p>
-                    </div>
+            <div class="card-body row">
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="blog-svg-1" class="hide"></div>
+                </div>
+                <div class="col-md-4 col-12 my-auto text-center">
+                    <h1 class="card-text Display-2 fw-bold text-success" style="text-shadow: 2px 2px 5px rgba(122, 121, 121, 0.8);">BLOG</h1>
+                    <p class="card-text lead">Welcome to my <b style="color:#727cf5;">Blog</b> Section</p>
+                    <p class="card-text lead">The content that you want</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div id="blog-svg-2" class="hide"></div>
                 </div>
             </div>
         </div>
+        <!-- carousel -->
         <div id="carouselExampleCaptions" class="carousel slide w-75 mx-auto" data-bs-ride="carousel" style="margin-top:10%;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active pe-4 pt-1 me-2 border-0 alert-primary" aria-current="true" aria-label="Slide 1"></button>
@@ -125,11 +128,7 @@
                 </div>
             </div>
         </div>
-
-        <img src="Health - Sports.png" class="img-fluid d-block pt-5 pb-5 mx-auto" alt="...">
-
-
-        <div class="card mb-3 mt-5 w-75 mx-auto border-0 rounded shadow" data-aos="zoom-out-up" data-aos-offset="800" data-aos-duration="1000">
+        <div class="card mb-3 mt-5 w-75 mx-auto border-0 rounded shadow" data-aos="zoom-out-up">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body pt-xl-5 mt-xl-5">

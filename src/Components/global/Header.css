@@ -1,0 +1,19 @@
+.color:hover {
+  color: #845ef7 !important;
+}
+
+.color:active {
+  color: #845ef7 !important;
+}
+
+.slide-top {
+  animation: 0.5s slide-top;
+}
+@keyframes slide-top {
+  from {
+    margin-top: 40%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
